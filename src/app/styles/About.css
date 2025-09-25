@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+.about-page {
+  @apply min-h-screen bg-gray-50 py-12;
+}
+
+.about-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.about-header {
+  @apply text-center;
+}
+
+.about-title {
+  @apply text-3xl font-extrabold text-gray-900;
+}
+
+.about-subtitle {
+  @apply mt-4 max-w-2xl mx-auto text-gray-500;
+}
+
+.about-grid {
+  @apply mt-12 grid gap-8 md:grid-cols-2;
+}
+
+.about-card {
+  @apply bg-white rounded-lg shadow-md p-6;
+}
+
+.about-card-title {
+  @apply text-xl font-semibold text-gray-900;
+}
+
+.about-card-text {
+  @apply mt-4 text-gray-500;
+}
+
+.about-values {
+  @apply mt-8 bg-white rounded-lg shadow-md p-6;
+}
+
+.about-values-title {
+  @apply text-xl font-semibold text-gray-900;
+}
+
+.about-values-grid {
+  @apply mt-4 grid gap-4 md:grid-cols-3;
+}
+
+.about-value-heading {
+  @apply font-medium text-gray-900;
+}
+
+.about-value-text {
+  @apply mt-2 text-gray-500;
+}
